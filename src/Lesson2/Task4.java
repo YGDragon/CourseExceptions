@@ -17,5 +17,6 @@ public class Task4 {
         } else {
             System.out.println(lineText);
         }
+        in.close();
     }
 }
