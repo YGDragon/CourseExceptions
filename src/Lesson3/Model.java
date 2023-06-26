@@ -26,14 +26,6 @@ public class Model {
         return new Scanner(System.in).nextLine();
     }
 
-    public static void printArray(String[] array) {
-        for (String el : array
-        ) {
-            System.out.print(el + " ");
-        }
-        System.out.println();
-    }
-
     //метод проверки персональных данных
     public static String[] checkPersonData(String personData) throws NullPointerException {
         String[] uncheckedData = personData.split(" ");

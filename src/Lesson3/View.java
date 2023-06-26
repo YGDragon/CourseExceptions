@@ -22,9 +22,4 @@ public class View {
     public static void writeNotMessage() {
         System.out.println("-> запись персональных данных невозможна".toUpperCase());
     }
-
-    //процедура вывода запросов пользователю на ввод персональных данных
-    public static void printDataTitle(String dataTitle) {
-        System.out.printf("%s: ", dataTitle);
-    }
 }

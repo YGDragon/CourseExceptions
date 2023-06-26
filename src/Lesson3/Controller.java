@@ -2,7 +2,7 @@ package Lesson3;
 
 public class Controller {
     public static void main(String[] args) throws Exception {
-        //вступительный блок
+        //блок запроса и проверки персональных данных
         View.dataMessage(Model.titleData);
         String[] checkedData = Model.checkPersonData(
                 Model.enterData()
